@@ -1,3 +1,98 @@
-html {
-    background-color: red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,900&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0;
+    height: 100vh;
+    width: 900px;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    margin: 0;
+    padding-top: 10px;
+    height: 48px;
+    width: 900px;
+    position: fixed;
+}
+
+.header-logo {
+    color: #F8FAF8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    align-self: center;
+    padding-left: 10px;
+}
+
+.header-links {
+    display: flex;
+    margin: 0px;
+    margin-left: auto;
+    padding: 0px;
+    display: flex;
+    gap: 10px;
+    padding-right: 10px;
+    align-self: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: #F8FAF8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    }
+
+.content-top {
+    background-color: #1F2937;
+    display: flex;
+    gap: 10px;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 0;
+    color: #F8FAF8;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content-top p {
+    color: #F8FAF8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.support-btn{ /*needs styling and bottom of container placement*/
+    width: 100px;
+}
+    /* Temp stuff below */
+
+.cards-container img {
+    width: 200px;
+}
+
+.footer {
+    background-color: #1F2937 ;
+    position: fixed;
+    bottom: 0;
+    color: #F8FAF8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    width: 900px;
+    height: 48px;
+    text-align: center;
 }
