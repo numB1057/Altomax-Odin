@@ -4,57 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sailing Altomax</title>
-    <link rel="stylesheet" href="./css/stylesheet.css">
+    <title>Layout practice</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="header">
-        <div class="header-logo">Altomax</div>
-        <ul class="header-links">
-            <li><a href="https://google.com">Support us</a></li>
-            <li><a href="https://google.com">Contact</a></li>
-            <li><a href="https://google.com">About</a></li>
-        </ul>
-    </div>
 
-    <div class="content">
-        <div class="content-top">
-            <div class="signup-container">
-                <h1 class="title">This website is AWESOME!</h1>
-                <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi beatae ut, ipsam, a assumenda quo enim necessitatibus accusamus aspernatur nulla aliquid laudantium eos nobis aliquam, iure eum!</p>        
+    <div class="page-container">
+
+        <div class="header">
+            <div class="header-logo">Altomax</div>
+            <ul class="nav-links">
+                <li><a href="https://www.google.com">Link one</a></li>
+                <li><a href="https://www.google.com">Link two</a></li>
+                <li><a href="https://www.google.com">Link three</a></li>
+            </ul>
+        </div>
+
+        <div class="top-banner">
+            <div class="description-container">
+                <h1 class="description-title">This website is awsome!</h1>
+                <p class="description">This is a brief description about the website. Who we are and out goals. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <button class="support-btn">Support us!</button>
             </div>
-            <img class="top-image" src="./assets/sunset-small.jpg" alt="Boat sunset">
+            <img src="./assets/sunset-small.jpg" alt="A sailboat out of the water during sunset"> 
         </div>
-        <div class="info-container"> <!--flex column here-->
-            <h3 class="information-title">Some Information.</h3>
+
+        <div class="main-content">
+            <h2 class="info-title">Informations</h2>
             <div class="cards-container">
-                <div class="cards">
-                    <img src="./assets/in-water-front-small.jpg" alt="img of a circle">
-                    <div class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
+                <div class="card">
+                    <img class="card-img" src="./assets/in-water-side1-small.jpg" alt="In water side view 1">
+                    <p class="cart-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 </div>
-                <div class="cards">
-                    <img src="./assets/in-water-side1-small.jpg" alt="Boat on water">
-                    <div class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
+                <div class="card">
+                    <img class="card-img" src="./assets/decals-small.jpg" alt="Boat decals">
+                    <p class="cart-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 </div>
-                <div class="cards">
-                    <img src="./assets/decals-small.jpg" alt="Logo decals">
-                    <div class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
+                <div class="card">
+                    <img class="card-img" src="./assets/in-water-front-small.jpg" alt="In water front view">
+                    <p class="cart-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 </div>
-                <div class="cards">
-                    <img src="./assets/in-water-side2 small.jpg" alt="img of gimp">
-                    <div class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
+                <div class="card">
+                    <img class="card-img" src="./assets/in-water-side2 small.jpg" alt="In water side view 2">
+                    <p class="cart-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="./assets/decals-small.jpg" alt="Boat decals">
+                    <p class="cart-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="./assets/in-water-front-small.jpg" alt="In water front view">
+                    <p class="cart-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="./assets/in-water-side2 small.jpg" alt="In water side view 2">
+                    <p class="cart-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 </div>
             </div>
+            <div class="quote"><em>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad excepturi cum alias aliquam voluptas, saepe libero illum optio perferendis! Tempore, deleniti! Reiciendis animi qui eaque laboriosam magni rerum corrupti quisquam!"</em><br><br>- Some Guy</div>
+            <div class="action-call">
+                <div class="action-text">This is a call to action text. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae nulla repudiandae itaque architecto cupiditate qui, unde dolorum molestiae distinctio atque perspiciatis possimus necessitatibus, non alias odio beatae facilis magni odit.</div>
+                <button class="support-btn">Support us!</button>
+            </div>
+
+        <div class="footer">
+            Copyright ©️ Altomax 2022 ⛵ for <a href="https://www.theodinproject.com">The Odin Project</a>
         </div>
-        <div class="content-quote">
-            "This is a quote Lorem ipsum dolor sit amet consectetur adipisicing elit."
-            <br>- Someone Else
-        </div>
-    </div>
-    
-    <div class="footer">
-        Copyright ©️ Altomax 2022 ⛵
+
     </div>
 
 </body>
